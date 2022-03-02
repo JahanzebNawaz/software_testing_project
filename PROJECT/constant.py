@@ -1,11 +1,15 @@
+"""
+This file contains all the constants,
+WEBSITE_URL: it contains the url for the website used for testing.
+LOGOUT_URL: to logout from the account before closing the browser.
+EMAIL: Registered User Account.
+USERNAME: Registered Username.
+PASSWORD: Registered User Password.
+"""
 
-DRIVER_PATH = './chromedriver_linux64/chromedriver'
-WEBSITE_URL = 'https://www.linkedin.com/'
-LOGOUT_URL = 'https://www.linkedin.com/m/logout/'
+WEBSITE_URL = 'http://demowebshop.tricentis.com/'
+LOGOUT_URL = 'http://demowebshop.tricentis.com/logout'
 
-# EMAIL = 'kovoki5062@chatich.com'
-EMAIL = 'wolirat997@goonby.com'
+EMAIL = ''
 USERNAME = ''
-PASSWORD = 'testingmyaccount90'
-USER_URL = 'in/jakewillim2/'
-
+PASSWORD = ''

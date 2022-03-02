@@ -1,3 +1,1 @@
-from .test_login import TestLinkedInLogin
-
-
+from .test_login import TestLoginUser
