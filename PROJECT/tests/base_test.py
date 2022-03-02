@@ -19,7 +19,7 @@ class BaseTestCase(unittest.TestCase):
         chrome_options.add_argument("--no-sandbox")
         self.service = Service(ChromeDriverManager().install())
         self.browser = webdriver.Chrome(
-            # service=self.service, options=chrome_options
+            service=Service(ChromeDriverManager().install()), options=chrome_options
         )
         self.browser.maximize_window()
         self.addCleanup(self.browser.quit)
