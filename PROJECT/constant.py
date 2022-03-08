@@ -10,6 +10,6 @@ PASSWORD: Registered User Password.
 WEBSITE_URL = 'http://demowebshop.tricentis.com/'
 LOGOUT_URL = 'http://demowebshop.tricentis.com/logout'
 
-EMAIL = ''
+EMAIL = 'jake90@testing.com'
 USERNAME = ''
-PASSWORD = ''
+PASSWORD = 'adminadmin'

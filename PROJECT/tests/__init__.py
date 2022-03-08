@@ -1,1 +1,1 @@
-from .test_login import TestLoginUser
+from .test_register_user import TestRegisterUser
