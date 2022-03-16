@@ -13,3 +13,5 @@ LOGOUT_URL = 'http://demowebshop.tricentis.com/logout'
 EMAIL = 'jake90@testing.com'
 USERNAME = ''
 PASSWORD = 'adminadmin'
+
+DRIVER_PATH = './chromedriver_linux64/chromedriver'
